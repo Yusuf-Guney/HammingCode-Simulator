@@ -12,11 +12,8 @@ Bir Hamming kodunun oluşturulması şu adımları içerir:
 2. Parite Bitlerini Eklemek: Veri bitlerinin belirli pozisyonlarına parite bitleri ekleyin. Parite bitlerinin sayısı ve konumu, kullanılacak olan Hamming kodunun türevine göre değişir. 
 3. Parite Bitlerini Hesaplama: Her bir parite biti, belirli bir veri bitlerinin kombinasyonunun eşitliğini kontrol eder.
 
-
-
-
-* [Oyun Linki](https://yusuf-guney.github.io/Asteroid-Oyunu/) - Oyuna yandaki linke tıklayarak ulaşabilirsiniz.
-* [Oynanış Videosu Linki](https://youtu.be/yLfr3xsBq5k) - Oyunun oynanış videosuna yandaki linke tıklayarak ulaşabilirsiniz.
+* [Hamming Error-Correcting Code Simülatörü](https://yusuf-guney.github.io/Asteroid-Oyunu/) - Yandaki linkten Hamming Code Simülatörüne ulaşabilirsiniz.
+* [Hamming Error-Correcting Code Simülatörü videosu](https://youtu.be/yLfr3xsBq5k) - Programın çalışmasına gösteren örnek videoya da yandaki linkten ulaşabilirsiniz
 ## Oyunun Oynanışı
 Oyun Uzay gemisi ve Mouse aynı yönde hareket edecek şekilde ayarlanmış durumda<br>
 Sol click ile de uzay gemisi ateş etmektedir.
