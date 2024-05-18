@@ -14,17 +14,10 @@ Bir Hamming kodunun oluşturulması şu adımları içerir:
 
 * [Hamming Error-Correcting Code Simülatörü](https://yusuf-guney.github.io/Asteroid-Oyunu/) - Yandaki linkten Hamming Code Simülatörüne ulaşabilirsiniz.
 * [Hamming Error-Correcting Code Simülatörü videosu](https://youtu.be/yLfr3xsBq5k) - Programın çalışmasına gösteren örnek videoya da yandaki linkten ulaşabilirsiniz
-## Oyunun Oynanışı
-Oyun Uzay gemisi ve Mouse aynı yönde hareket edecek şekilde ayarlanmış durumda<br>
-Sol click ile de uzay gemisi ateş etmektedir.
-## Görseller
-* ### Başlangıç ekranı ve oyun kuralları
-  ![](/images/Baslangic_Ekrani.jpg)
-* ### Başlangıç ekranı
-  ![](/images/Oyun_Baslangic_Ekrani.jpg)
-* ### Atış efekti
-  ![](/images/Atis_Efekti.jpg)
-* ### Düşman artışı
-  ![](/images/Dusman_Artisi.jpg)
-* ### Bitiş ekranı
-  ![](/images/Bitis_Ekrani.jpg)
+## Programın Arayüz Taıntımı
+Bu uygulamanın arayüz ekranı, kullanıcıların Hamming kodunu hesaplayıp hataları tespit ve düzeltmelerine olanak tanıyan etkileşimli bir panel sunar. Kullanıcı, veri bitlerinin uzunluğunu (4, 8, 16) seçip ardından veri bitlerini girebilir. Hamming kodunu hesaplamak için bir buton, Hamming koduna hata eklemek için bir başka buton ve hataları tespit ve düzeltmek için üçüncü bir buton bulunur. Hamming kodu hesaplandığında veya hata eklendiğinde, sonuçlar ekranda metin olarak görüntülenir. Arayüz ayrıca öğrenci bilgilerini ve bir GitHub bağlantısını içerir. 
+
+## Kullandığım Dil 
+Programı Html Css ve Javascript dillerini iç içe kullanarak hazırladım. 
+## Örnek Kod Görseli
+![](/images/Baslangic_Ekrani.jpg)
