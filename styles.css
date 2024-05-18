@@ -1,0 +1,62 @@
+/* Sayfa geneli stil tanımlamaları */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #5312ca, #feb47b); /* Arka plan rengini sayfayı 2 ye bölerek ayarlamak için */
+    color: #444; /* Yazı rengi */
+    display: flex; /* Esnek kutu düzeni */
+    justify-content: center; /* Yatay merkezleme */
+    align-items: center; /* Dikey merkezleme */
+    height: 100vh; /* Tam ekran yüksekliği */
+    margin: 0; /* Varsayılan margin'i sıfırla */
+}
+
+/* Konteyner stil tanımlamaları */
+.container {
+    background: rgba(255, 255, 255, 0.5); /*Yazının yazılı olduğu arka plan rengi*/
+    padding: 30px; /* İçerik boşluğu */
+    border-radius: 10px; /* Kenar yuvarlama */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölgelendirme */
+    width: 300px; /* Sabit genişlik */
+    text-align: center; /* Metin ortalama */
+}
+
+/* Başlık stil tanımlamaları */
+h1 {
+    color: #5312ca; /* Başlık rengi */
+}
+
+/* Girdi grubu stil tanımlamaları */
+.input-group {
+    margin: 10px 0; /* Alt ve üst boşluk */
+}
+
+/* Girdi alanları ve seçici stil tanımlamaları */
+input[type="text"], input[type="number"], select {
+    width: 100%; /* Tam genişlik */
+    padding: 10px; /* İçerik boşluğu */
+    margin-top: 5px; /* Üst boşluk */
+    border: 1px solid #ccc; /* Kenar rengi */
+    border-radius: 5px; /* Kenar yuvarlama */
+}
+
+/* Düğme stil tanımlamaları */
+button {
+    background-color: #5312ca; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    border: none; /* Kenarlık yok */
+    padding: 10px 20px; /* İçerik boşluğu */
+    margin-top: 10px; /* Üst boşluk */
+    cursor: pointer; /* İşaretçi imleci */
+    border-radius: 5px; /* Kenar yuvarlama */
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+/* Düğme hover stil tanımlamaları */
+button:hover {
+    background-color: #5312ca; /* Hover arka plan rengi */
+}
+
+/* Paragraf stil tanımlamaları */
+p {
+    margin-top: 10px; /* Üst boşluk */
+}

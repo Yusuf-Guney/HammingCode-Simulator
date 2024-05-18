@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hamming Kodu Hesaplayıcı</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Ana konteyner -->
+    <div class="container">
+        <h1>Hamming Kodu Hesaplayıcı</h1>
+        <!-- Bit sayısını seçme bölümü -->
+        <div class="input-group">
+            <label for="bitLength">Bit sayısını seçin (4, 8, 16):</label>
+            <select id="bitLength">
+                <option value="4">4</option>
+                <option value="8">8</option>
+                <option value="16">16</option>
+            </select>
+        </div>
+        <!-- Veri bitlerini girme bölümü -->
+        <div class="input-group">
+            <label for="dataBits">Veri bitlerini girin:</label>
+            <input type="text" id="dataBits" placeholder="Örneğin: 1011">
+        </div>
+        <!-- Hamming kodunu hesaplama düğmesi -->
+        <button id="calculateButton">Hamming Kodunu Hesapla</button>
+        <p id="hammingCodeOutput"></p>
+        
+        <!-- Hata ekleme bölümü -->
+        <h2>Hata Ekleyin</h2>
+        <div class="input-group">
+            <label for="errorPosition">Değiştirmek istediğiniz bitin pozisyonunu girin:</label>
+            <input type="number" id="errorPosition" placeholder="1">
+        </div>
+        <!-- Hata ekleme düğmesi -->
+        <button id="addErrorButton">Hata Ekle</button>
+        <p id="errorOutput"></p>
+        
+        <!-- Hata tespit ve düzeltme bölümü -->
+        <h2>Hata Tespit ve Düzeltme</h2>
+        <button id="detectButton">Hata Tespit ve Düzelt</button>
+        <p id="correctionOutput"></p>
+
+        <!-- Öğrenci bilgileri -->
+       <p>Yusuf Güney - 22360859041</p>
+       <p><a href="https://github.com/" target="_blank">GitHub</a></p>
+       
+    </div>
+</body>
+</html>
