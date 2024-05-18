@@ -20,4 +20,4 @@ Bu uygulamanın arayüz ekranı, kullanıcıların Hamming kodunu hesaplayıp ha
 ## Kullandığım Dil 
 Programı Html Css ve Javascript dillerini iç içe kullanarak hazırladım. 
 ## Örnek Kod Görseli
-![](/images/Baslangic_Ekrani.jpg)
+![](Örnek_Ekran_Görüntüsü.png)
